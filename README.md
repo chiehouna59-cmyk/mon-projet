@@ -43,7 +43,7 @@ Site web responsive développé pour présenter mon portfolio personnel.
 ![Projets](projets.png)
 
 ### Contact
-![Contact](images/contact.png)
+![Contact](contact.png)
 
 
 
