@@ -5,20 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width: 991px) {
-  .navbar-nav {
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-  }
-
-  .navbar-nav .nav-item {
-    margin: 5px 0;
-  }
-
-  .navbar {
-    padding: 10px;
-  }
+/* Navbar */
+.navbar-nav {
+    gap: 40px;
 }
 
 .nav-link {
