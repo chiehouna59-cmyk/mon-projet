@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page produit</title>
+    <link rel="stylesheet" href="css/algo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Téléphone Nova X12</h1>
+        <p>Une fiche produit claire avec commande rapide.</p>
+    </header>
+
+    <main>
+        <div class="layout">
+            <section class="infos">
+                <h2>Caractéristiques techniques</h2>
+                <p>Le Nova X12 combine performance, autonomie et design moderne.</p>
+
+                <table class="specs">
+                    <thead>
+                        <tr>
+                            <th>Caractéristique</th>
+                            <th>Valeur</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Écran</td>
+                            <td>6.5" AMOLED</td>
+                        </tr>
+                        <tr>
+                            <td>Processeur</td>
+                            <td>Octa-Core 2.8 GHz</td>
+                        </tr>
+                        <tr>
+                            <td>Mémoire</td>
+                            <td>8 Go RAM / 256 Go</td>
+                        </tr>
+                        <tr>
+                            <td>Batterie</td>
+                            <td>5000 mAh</td>
+                        </tr>
+                        <tr>
+                            <td>Caméra</td>
+                            <td>64 MP + 12 MP</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Accessoires inclus</h3>
+                <ul class="accessoires">
+                    <li>Chargeur rapide 45W</li>
+                    <li>Câble USB-C</li>
+                    <li>Coque de protection</li>
+                    <li>Écouteurs filaires</li>
+                </ul>
+            </section>
+
+            <aside class="commande">
+                <h2>Commander</h2>
+                <form action="#" method="post">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="adresse">Adresse</label>
+                    <textarea id="adresse" name="adresse" rows="3"></textarea>
+
+                    <label for="quantite">Quantité</label>
+                    <input type="number" id="quantite" name="quantite" min="1" value="1">
+
+                    <p>Couleur</p>
+                    <label><input type="radio" name="couleur" value="noir" checked> Noir</label>
+                    <label><input type="radio" name="couleur" value="bleu"> Bleu</label>
+                    <label><input type="radio" name="couleur" value="argent"> Argent</label>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="3"></textarea>
+
+                    <button type="submit">Valider la commande</button>
+                </form>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>Exercice 4 - TD HTML/CSS</p>
+    </footer>
+</body>
+
+</html>
