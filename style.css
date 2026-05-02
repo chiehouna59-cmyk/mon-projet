@@ -6,6 +6,15 @@ body {
 }
 
 /* Navbar */
+.navbar {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
 .navbar-nav {
     gap: 40px;
 }
