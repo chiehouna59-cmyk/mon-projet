@@ -102,88 +102,85 @@
       <hr class="separator">
     </section>
 
-    <!-- PROJETS -->
+  <!-- PROJETS -->
     <section id="projets" class="text-center py-5">
-      <div class="container">
+        <div class="container">
 
-        <h2 class="text-center mb-4">Mes projets</h2>
-        <div class="text-center mb-4">
-          <button class="btn btn-dark filter-btn" data-filter="all">Tous</button>
-          <button class="btn btn-outline-dark filter-btn" data-filter="web">Web</button>
-          <button class="btn btn-outline-dark filter-btn" data-filter="algo">Algorithme</button>
-          <button class="btn btn-outline-dark filter-btn" data-filter="telecom">Telecom</button>
-          <button class="btn btn-outline-dark filter-btn" data-filter="linux">Linux</button>
+            <h2 class="text-center mb-4">Mes projets</h2>
+            <div class="text-center mb-4">
+                <button class="btn btn-dark filter-btn" data-filter="all">Tous</button>
+                <button class="btn btn-outline-dark filter-btn" data-filter="web">Web</button>
+                <button class="btn btn-outline-dark filter-btn" data-filter="algo">Algorithme</button>
+                <button class="btn btn-outline-dark filter-btn" data-filter="telecom">Telecom</button>
+                <button class="btn btn-outline-dark filter-btn" data-filter="linux">Linux</button>
+            </div>
+
+            <div class="row g-4">
+                <article class="col-md-4 projet-card" data-category="web">
+                    <div class="card">
+                        <div class=" card-body text-center">
+                            <h5>Boutique en ligne</h5>
+                            <p>En attente 🚧</p>
+                            <a href="#" id="lienProjet" class="btn  btn-dark text-white">Voir</a>
+                            <p id="messageProjet"></p>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 projet-card" data-category="algo">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5>Projets algorithmique</h5>
+                            <p>Gestion des notes d'étudiants</p>
+                            <a href="rapport projet algorithme.pdf" download class="btn btn-dark mt-3">
+                                📄 Télécharger le projet</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 projet-card" data-category="linux">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5>Projets Linux</h5>
+                            <p>Maitriser les commandes de bases de Linux</p>
+                            <a href="projet-linux.pdf" download class="btn btn-dark mt-3">
+                                📄 Télécharger le projet</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 projet-card" data-category="telecom">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5>Projet signal</h5>
+                            <p>Filtrage des signaux</p>
+                            <a href="filtrage-signaux.pdf" download class="btn btn-dark mt-3">
+                                📄 Télécharger le projet</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 projet-card" data-category="web">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5>Projets Html</h5>
+                            <p>Accessoire mobile</p>
+                            <a href="algo.html" class="btn  btn-dark text-white">Voir</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 projet-card" data-category="web">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5>Portfolio</h5>
+                            <p>Mon site personnel</p>
+                            <a href="index.html" class="btn  btn-dark text-white">Voir</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
         </div>
-
-        <div class="row ">
-
-
-
-          <article class="class="col-md-4 projet-card" data-category="web">
-            <div class="card">
-              <div class=" card-body text-center">
-                <h5>Boutique en ligne</h5>
-                <p>En attente 🚧</p>
-                <a href="#" id="lienProjet" class="btn  btn-dark text-white">Voir</a>
-                <p id="messageProjet"></p>
-              </div>
-            </div>
-          </article>
-          <article class="col-md-4 projet-card" data-category="algo">
-            <div class="card">
-              <div class="card-body text-center">
-                <h5>Projets algorithmique</h5>
-                <p>Gestion des notes d'étudiants</p>
-                <a href="rapport projet algorithme.pdf" download class="btn btn-dark mt-3">
-                  📄 Télécharger le projet</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-md-4 projet-card" data-category="linux">
-            <div class="card">
-              <div class="card-body text-center">
-                <h5>Projets Linux</h5>
-                <p>Maitriser les commandes de bases de Linux</p>
-                <a href="projet-linux.pdf" download class="btn btn-dark mt-3">
-                  📄 Télécharger le projet</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-md-4 data-category="telecom">
-            <div class="card">
-              <div class="card-body text-center">
-                <h5>Projet signal</h5>
-                <p>Filtrage des signaux</p>
-                <a href="filtrage-signaux.pdf" download class="btn btn-dark mt-3">
-                  📄 Télécharger le projet</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-md projet-card" data-category="web">
-            <div class="card">
-              <div class="card-body text-center">
-                <h5>Projets Html</h5>
-                <p>Accessoire mobile</p>
-                <a href="algo.html" class="btn btn-dark  text-white">Voir</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-md-4 projet-card" data-category="web">
-            <div class="card">
-              <div class="card-body text-center">
-                <h5>Portfolio</h5>
-                <p>Mon site personnel</p>
-                <a href="index.html" class="btn  btn-dark text-white">Voir</a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-
-      </div>
-      <hr class="separator">
+        <hr class="separator">
     </section>
-
+       
     <!-- CONTACT -->
     <section id="contact" class="bg-mauve py-5">
       <div class="container">
