@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-nav {
+    gap: 40px;
+}
+
+.nav-link {
+    color: goldenrod !important;
+}
+
+/* Header */
+.bg-mauve {
+    background-color: black;
+}
+
+/* Photo */
+.photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid goldenrod;
+    margin-bottom: 15px;
+}
+
+#projets {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Cards */
+.card {
+    background: goldenrod;
+    color: black;
+    border: none;
+}
+
+/* Boutons */
+.btn:hover {
+    background: goldenrod;
+    color: black;
+}
+
+.scroll-down {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: goldenrod;
+    color: black;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    animation: bounce 1.5s infinite;
+}
+
+/* Animation */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+    color: goldenrod;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid goldenrod;
+}
+
+
+
+.socials {
+    margin-top: 2px;
+}
+
+.socials a {
+    color: white;
+    margin: 0 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.socials a:hover {
+    color: goldenrod;
+}
+
+.separator {
+    width: 60%;
+    margin: 40px auto;
+    border: none;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#messageProjet {
+    color: red;
+    margin-top: 10px;
+}
