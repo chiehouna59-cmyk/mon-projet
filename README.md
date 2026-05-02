@@ -37,7 +37,7 @@ Site web responsive développé pour présenter mon portfolio personnel.
 ![Accueil](accueil.png)
 
 ### A-propos
-![A propos](images/about.png)
+![A propos](about.png)
 
 ### Projets
 ![Projets](images/projets.png)
