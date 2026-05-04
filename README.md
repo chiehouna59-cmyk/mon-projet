@@ -6,7 +6,7 @@ Site web responsive développé pour présenter mon portfolio personnel.
 
 ## Sujet choisi
 
-- Sujet B — Portfolio 💼
+- Sujet B — Portfolio 
 
 ---
 
@@ -24,14 +24,14 @@ Site web responsive développé pour présenter mon portfolio personnel.
 ---
 
 ## Fonctionnalités
-- Navbar responsive 📱  
-- Carousel de présentation 🖼️  
-- Formulaire de contact avec validation ✉️  
-- Filtre dynamique 🔍  
+- Navbar responsive 
+- Carousel de présentation  
+- Formulaire de contact avec validation   
+- Filtre dynamique 
 
 ---
 
-## 📸 Captures d'écran
+## Captures d'écran
 
 ### Accueil
 ![Accueil](accueil.png)
@@ -49,7 +49,7 @@ Site web responsive développé pour présenter mon portfolio personnel.
 
 ---
 
-## 👥 Équipe
+## Équipe
 - khadim gueye  
 - modou fall
 - boydo sow  
