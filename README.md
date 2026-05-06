@@ -34,16 +34,16 @@ Site web responsive développé pour présenter mon portfolio personnel.
 ## Captures d'écran
 
 ### Accueil
-![Accueil](accueil.png)
+![Accueil](images/accueil.png)
 
 ### A-propos
-![A propos](about.png)
+![A propos](images/about.png)
 
 ### Projets
-![Projets](projets.png)
+![Projets](images/projets.png)
 
 ### Contact
-![Contact](contact.png)
+![Contact](images/contact.png)
 
 
 
