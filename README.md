@@ -53,7 +53,7 @@ Site web responsive développé pour présenter mon portfolio personnel.
 ### Accueil
 ![Projets](images/accueilmobile.jpg)
 ### Mes projets
-![Projets](images/projet.jpg)
+![Projets](images/projetmobile.jpg)
 ### Contact 
 ![Projets](images/contactmobile.jpg)
 
